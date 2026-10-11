@@ -1,0 +1,7 @@
+ORGANIZADOR DE HeLa — PROYECTO ANDROID
+
+Este paquete contiene el código fuente para compilar una aplicación Android que muestra la interfaz web local. No es un APK instalable todavía.
+
+Para compilarlo se necesita Android Studio y el SDK de Android en un computador, o un servicio de compilación en la nube compatible. Como quieres hacerlo solo desde tu celular, la alternativa inmediata es probar la versión web incluida en el archivo Organizador_de_HeLa_web.zip.
+
+La aplicación Android llevará el nombre visible “Organizador de HeLa”. La interfaz guarda los datos en el almacenamiento local del WebView. Exporta respaldos antes de desinstalar o borrar datos.

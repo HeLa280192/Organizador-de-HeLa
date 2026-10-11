@@ -1,0 +1,17 @@
+ORGANIZADOR DE HeLa — PROYECTO PARA GENERAR LA APLICACIÓN ANDROID
+
+Este ZIP contiene el proyecto Android y el HTML actualizado con respaldo de datos.
+No es todavía un APK instalable. El flujo incluido permite que GitHub compile el APK en la nube.
+
+PASOS (desde el celular; requiere una cuenta gratuita de GitHub):
+1. Entra a https://github.com y crea una cuenta o inicia sesión.
+2. Crea un repositorio nuevo llamado Organizador-de-HeLa. Puedes marcarlo privado.
+3. En el repositorio, usa Add file > Upload files y sube los archivos/carpetas que están dentro de este ZIP (no subas el ZIP como único archivo). Debe quedar .github/workflows/compilar-apk.yml en la raíz y app/, build.gradle.kts y settings.gradle.kts en la raíz.
+4. Pulsa Commit changes.
+5. En la pestaña Actions, abre “Crear APK de Organizador de HeLa”. Si no arranca automáticamente, usa Run workflow.
+6. Espera a que termine con marca verde. Abre esa ejecución, baja a Artifacts y descarga “Organizador-de-HeLa-APK”.
+7. Extrae ese ZIP y abre app-debug.apk. Android te puede pedir permiso para instalar aplicaciones desde esa fuente; solo habilítalo para el navegador/gestor de archivos que estés usando si confías en el archivo que acabas de generar.
+
+IMPORTANTE:
+- Esta aplicación guarda los datos localmente en su propio almacenamiento. No borres datos de Chrome ni la versión anterior hasta comprobar la nueva y exportar un respaldo.
+- El APK generado es una versión de prueba (debug) para instalación personal, no una publicación en Play Store.
